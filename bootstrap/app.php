@@ -123,7 +123,6 @@ foreach ($a as $proj_dir) {
     if (file_exists($path . "/" . $proj_dir . "/Routes/routes.php")) {
         $app->router->group([
             'namespace' => "MEDICAL\\".ucfirst($proj_dir)."\\Controllers",
-            'prefix' => "v1.0",
                 ], function ($router) use ($path, $proj_dir) {
             require $path . "/" . $proj_dir . "/Routes/routes.php";
         });
