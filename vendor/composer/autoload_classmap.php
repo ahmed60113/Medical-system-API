@@ -1837,6 +1837,7 @@ return array(
     'MEDICAL\\Countries\\Resources\\AreaResource' => $baseDir . '/modules/countries/Resources/AreaResource.php',
     'MEDICAL\\Countries\\Resources\\CountryResource' => $baseDir . '/modules/countries/Resources/CountryResource.php',
     'MEDICAL\\Countries\\Resources\\GovernResource' => $baseDir . '/modules/countries/Resources/GovernResource.php',
+    'MEDICAL\\Countries\\Resources\\GovernResourceOnly' => $baseDir . '/modules/countries/Resources/GovernResourceOnly.php',
     'MEDICAL\\Patients\\Contorllers\\exampleControler' => $baseDir . '/modules/Example-module/Controllers/exmpleController.php',
     'MEDICAL\\Patients\\Contorllers\\patientController' => $baseDir . '/modules/patients/Controllers/patientController.php',
     'MEDICAL\\Patients\\Models\\example' => $baseDir . '/modules/Example-module/Models/example.php',

@@ -18,11 +18,9 @@ class GovernResource extends JsonResource
         $resource = $this->resource;
         return [
                 'id' => $resource->id,
-                'arabicName' => $resource->name['ar'],
-                'englishName' => $resource->name['en'],
-                'areas' => AreaResource::collection($resource->children),
-
-            
+                'arabicName' => $resource->arabicName,
+                'englishName' => $resource->englishName,
+                'phone_code' => $resource->phone_code,
         ];
     }
 }

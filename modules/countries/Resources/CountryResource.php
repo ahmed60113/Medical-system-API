@@ -20,7 +20,7 @@ class CountryResource extends JsonResource
             'id'=>          $resource->id    ,
             'arabicName'=>  $resource->arabicName,
             'englishName'=> $resource->englishName,
-            'goverments' => GovernResource::collection($resource->children), 
+            'phone_code' => $resource->phone_code, 
         ];
     }
 }

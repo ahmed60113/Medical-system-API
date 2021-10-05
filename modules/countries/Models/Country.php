@@ -39,7 +39,4 @@ class Country extends Model
     {
         return $this->hasMany(Country::class, 'parent_id')->with('children');
     }
-
-
-
 }

@@ -17,9 +17,8 @@ class AreaResource extends JsonResource
         $resource=$this->resource;
         return [
                 'id' =>         $resource->id,
-                'arabicName' => $resource->name['ar'],
-                'englishName' => $resource->name['en'],
-            
+                'arabicName' => $resource->arabicName,
+                'englishName' => $resource->englishName,
         ];
     }
 }
