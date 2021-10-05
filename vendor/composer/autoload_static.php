@@ -2401,6 +2401,7 @@ class ComposerStaticInit4227a1f203921043434b5bf64bbca29e
         'MEDICAL\\Countries\\Resources\\AreaResource' => __DIR__ . '/../..' . '/modules/countries/Resources/AreaResource.php',
         'MEDICAL\\Countries\\Resources\\CountryResource' => __DIR__ . '/../..' . '/modules/countries/Resources/CountryResource.php',
         'MEDICAL\\Countries\\Resources\\GovernResource' => __DIR__ . '/../..' . '/modules/countries/Resources/GovernResource.php',
+        'MEDICAL\\Countries\\Resources\\GovernResourceOnly' => __DIR__ . '/../..' . '/modules/countries/Resources/GovernResourceOnly.php',
         'MEDICAL\\Patients\\Contorllers\\exampleControler' => __DIR__ . '/../..' . '/modules/Example-module/Controllers/exmpleController.php',
         'MEDICAL\\Patients\\Contorllers\\patientController' => __DIR__ . '/../..' . '/modules/patients/Controllers/patientController.php',
         'MEDICAL\\Patients\\Models\\example' => __DIR__ . '/../..' . '/modules/Example-module/Models/example.php',

@@ -5,7 +5,9 @@
 
 $route = app()->router;
 $route->post('/country/create','CountriesController@create');
-$route->get('/country/index/{lang}/{type}','CountriesController@index');
+$route->get('/country/countryIndex/{lang}','CountriesController@countryIndex');
+$route->get('/country/governIndex/{lang}/{countryId}','CountriesController@governIndex');
+$route->get('/country/areaIndex/{lang}/{governId}','CountriesController@areaIndex');
 $route->get('/country/show/{id}','CountriesController@show');
 $route->delete('/country/delete/{id}','CountriesController@delete');
 $route->patch('/country/restore/{id}','CountriesController@restore');
